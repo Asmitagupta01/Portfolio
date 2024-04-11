@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(57 57 65);
+    color: white;
+    font-family:'sans-serif';
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    padding: 18px;
+    background-color: rgb(127 124 132);
+    color: rgb(7, 7, 7);
+    width: 100%;
+    top:0;
+    position: fixed;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding-left: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+}
+
+nav ul li a:hover {
+    color: gainsboro;
+    font-size: 1.25rem;
+}
+
+.left {
+    font-size: 1.8rem;
+   /* font-family: Georgia;*/
+}
+
+.right {
+    font-size: 1.2rem;
+   /* font-family:  sans-serif;*/
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 190px 0;
+    align-items: center;
+}
+
+.firstSection>div {
+    width: 30vw;
+}
+
+/*.leftSection {
+    margin-top: 100px;
+}*/
+
+.heading {
+    font-size: 2.5rem;
+    color: aquamarine;
+   /* font-family: 'Imprint MT Shadow';*/
+}
+
+.content {
+    font-size: 1.2rem;
+    margin-top: 7px;
+    padding-top: 5px;
+    color: antiquewhite;
+   /* font-family: 'Cambria';*/
+}
+
+button,
+.linkedin-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'sans-serif';
+    /*font-family: 'Times New Roman', Times, serif;*/
+}
+
+button:hover,
+.linkedin-btn:hover {
+    background-color: #0056b3;
+}
+
+.rightSection img {
+    width: 25vw;
+    margin: 15px 0;
+    padding-top: 12px;
+}
+
+main hr {
+    border: 0;
+    background-color: rgb(136, 119, 153);
+    height: 1.5px;
+    margin: 25px 84px;
+}
+
+div h1 {
+    margin-top: 100px;
+    font-size: 2.5rem;
+    color: blanchedalmond;
+    text-align: center;
+    /*font-family: georgia;*/
+}
+
+.secondSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 90px;
+}
+
+.secondSection h2 {
+    /*font-family: 'Lucida Sans Regular';*/
+    color: rgb(232, 227, 219);
+    font-size: 1.8rem;
+}
+
+.secondSection ul {
+    padding: 12px;
+}
+
+.secondSection li {
+    padding: 6px;
+    font-size: 1.2rem;
+    color: antiquewhite;
+}
+
+.thirdSection {
+    margin: 90px;
+}
+
+.tab {
+    margin: auto;
+    padding-top: 30px;
+    width: 60vw;
+}
+
+.tab th {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 65px;
+    /*font-family: 'Lucida Sans Regular';*/
+    color: rgb(232, 227, 219);
+    font-size: 1.8rem;
+    margin: auto;
+}
+
+.tab td {
+    margin: auto;
+    padding-right: 60px;
+    padding-bottom: 30px;
+    font-size: 1.2rem;
+    color: antiquewhite;
+}
+
+.fourthSection {
+    margin: 90px;
+}
+
+.prodesign {
+    width: 70%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.dldesign {
+    padding: 13px;
+}
+
+.dtdesign {
+    padding: 5px;
+    color: rgb(232, 227, 219);
+    font-size: 1.7rem;
+}
+
+.dddesign {
+    font-size: 1.1rem;
+    color: antiquewhite;
+    padding: 5px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 20px;
+    width: 90%;
+    margin-bottom: 10px;
+    font-family: 'sans-serif';
+}
+
+#response {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.containerfoot {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+footer {
+    background-color: rgb(127 124 132);
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.footer-links li a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-links li a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1108px) {
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .firstSection{
+        flex-direction: column-reverse;
+        margin:90px 0;
+    }
+    .firstSection> div{
+            width:70vw;
+    }
+    .rightSection img{
+        width:40vw;
+    }
+    button,.viewLinkedInBtn{
+        flex-direction: column;
+    }
+    hr{
+        visibility: hidden;
+    }
+    
+    
+}
+@media screen and (max-width: 673px) {
+    .prodesign{
+        width: 90vw;
+        text-align: left;
+    }
+    hr{
+        visibility: hidden;
+    }
+    
+}
+

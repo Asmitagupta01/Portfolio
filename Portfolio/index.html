@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Portfolio </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#edu">Education</a></li>
+                    <li><a href="#pro">Projects</a></li>
+                    <li><a href="#con">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main id="home">
+        <section class="firstSection">
+            <div class="leftSection heading">
+                Welcome to my portfolio!
+                <div class="content">I'm Asmita Gupta, a recent postgraduate with a Master's in Computer Application
+                    (MCA), passionate about technology and innovation. Skilled in Python, Java, Web technologies. </div>
+                <div>
+                    <button id="downloadBtn">Download Resume</button>
+                    <a href="#" id="viewLinkedInBtn" class="linkedin-btn">View LinkedIn</a>
+
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="\Portfolio\image\2875568.jpg" alt="profile">
+            </div>
+        </section>
+        <hr id="skill">
+        <div>
+            <h1> Skills</h1>
+        </div>
+        <section class="secondSection">
+            <div class="leftSection2">
+                <h2>Technical Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>Core Java</li>
+                    <li>MySQL</li>
+                </ul>
+            </div>
+            <div class="rightSection2">
+                <h2>Personal Skills</h2>
+                <ul>
+                    <li>Eagerness to learn</li>
+                    <li>Team Work</li>
+                    <li>Adaptabillity</li>
+                </ul>
+            </div>
+        </section>
+        <hr id="edu">
+        <section class="thirdSection">
+            <div>
+                <h1>Education</h1>
+                <div class="tab">
+                    <table>
+                        <tr>
+                            <th>Degree</th>
+                            <th>College</th>
+                            <th>Year</th>
+                        </tr>
+                        <tr>
+                            <td>Master of Computer Application</td>
+                            <td>Future Institute of Engineering & Technologies, Bareilly</td>
+                            <td>2021-2023</td>
+                        </tr>
+                        <tr>
+                            <td>Bachelor of Computer Application</td>
+                            <td>Bareilly College, Bareilly</td>
+                            <td>2018-2021</td>
+                        </tr>
+                        <tr>
+                            <td>Higher & Secondary Education</td>
+                            <td>Bal Vidyapeeth Public School, Bareilly</td>
+                            <td>2015-2018</td>
+                        </tr>
+                    </table>
+                </div>
+        </section>
+        <hr id="pro">
+        <section class="fourthSection">
+            <div>
+                <h1>Projects</h1>
+            </div>
+            <div class="prodesign">
+                <dl class="dldesign">
+                    <dt class="dtdesign">Travel management system:</dt>
+                    <dd class="dddesign">Our tour website is an HTML, CSS, and JS-based platform featuring comprehensive
+                        tour listings, a user-friendly booking form, an intuitive admin dashboard, seamless payment
+                        integration, and responsive design for optimal viewing on all devices. Interactive features
+                        enhance user engagement, ensuring a memorable browsing and booking experience.</dd>
+                </dl>
+                <dl class="dldesign">
+                    <dt class="dtdesign">Library Management System:</dt>
+                    <dd class="dddesign">It is Java based GUI project, it efficiently organizes library tasks like
+                        inventory management, book issuance, time allocation, and penalty tracking. It enhances library
+                        operations with a user-friendly interface, promoting smooth functionality and improved user
+                        experience for librarians.</dd>
+                </dl>
+                <dl class="dldesign">
+                    <dt class="dtdesign">Food Ordering System:</dt>
+                    <dd class="dddesign"> Our Python-based Food Ordering System is a console application enabling
+                        customers to navigate menus, select items via corresponding options, and view the final amount
+                        for their order. It offers a streamlined ordering process with an intuitive interface for an
+                        efficient user experience.</dd>
+                </dl>
+            </div>
+        </section>
+        <hr id="con">
+        <section>
+            <div>
+                <h1>Contact Me</h1>
+            </div>
+            <div class="container">
+                <form id="contact-form">
+                    <input type="text" id="name" placeholder="Your Name" autocomplete="off" required>
+                    <input type="email" id="email" placeholder="Your Email" autocomplete="off" required>
+                    <textarea id="message" placeholder="Your Message" autocomplete="off" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+                <div id="response"></div>
+            </div>
+        </section>
+        <hr>
+    </main>
+    <footer>
+        <div class="containerfoot">
+            <p>&copy; My Portfolio. All rights reserved. | Designed by Asmita Gupta</p>
+            <ul class="footer-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skill">skills</a></li>
+                <li><a href="#edu">Education</a></li>
+                <li><a href="#pro">Project</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
